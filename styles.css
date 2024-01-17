@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --light-gray: #7284a1;
+}
+
+.input-section {
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.todo-input {
+  flex-basis: 60%;
+}
+
+/* Meaning all the divs inside the list-todo-heading would get the style applied */
+.list-todo-heading > div {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.todo-item {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.todo-number {
+  flex-basis: 3%;
+}
+
+.todo-detail {
+  flex-basis: 35%;
+}
+
+.todo-status {
+  flex-basis: 10%;
+}
+
+.actual-status {
+  margin-left: 5rem;
+}
+
+.todo-actions {
+  flex-basis: 40%;
+}
+
+.actual-todos {
+  margin-left: 1.5rem;
+}
